@@ -1,24 +1,8 @@
-package programmingBasicsExam17July2016;
 
-import java.util.Scanner;
 
-public class Diamond {
 
-    private static String newString(String symbol, int count) {
 
-        StringBuilder builder = new StringBuilder();
 
-        for (int i = 0; i < count; i++) {
-            builder.append(symbol);
-        }
-
-        return builder.toString();
-    }
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        int n = Integer.parseInt(scanner.nextLine());
 
         int dots = n;
         int stars = (5 * n) - (n * 2);

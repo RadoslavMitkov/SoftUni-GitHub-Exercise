@@ -1,6 +1,6 @@
 package programmingBasicsExam17July2016;
 
-import java.util.Scanner;
+
 
 public class BackToThePast {
     public static void main(String[] args) {
@@ -24,6 +24,3 @@ public class BackToThePast {
             System.out.printf("Yes! He will live a carefree life and will have %.02f dollars left.", money);
         } else {
             System.out.printf("He will need %.02f dollars to survive.", Math.abs(money));
-        }
-    }
-}
